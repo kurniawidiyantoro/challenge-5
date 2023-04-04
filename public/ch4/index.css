@@ -1,0 +1,146 @@
+@font-face {
+  font-family: "openSans";
+  src: url("fonts/OpenSans-Regular-webfont.woff") format("woff");
+}
+
+@keyframes waves {
+  from {
+    transform: rotate(30deg);
+  }
+
+  to {
+    transform: rotate(-30deg);
+  }
+}
+
+/* size batu gunting kertas */
+
+.batu,
+.gunting,
+.kertas {
+  padding: 15%;
+  border-radius: 15%;
+}
+
+.batu {
+  width: 128px;
+  height: 92px;
+}
+
+.kertas {
+  width: 115px;
+  height: 150px;
+}
+
+.gunting {
+  width: 134px;
+  height: 160px;
+}
+
+/* akhir size batu gunting kertas */
+
+body {
+  background-color: #9c835f;
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 3%;
+  margin-left: 1%;
+}
+
+.header span {
+  font-size: 72px;
+  font-weight: bolder;
+  color: #724c21;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header p {
+  font-family: openSans, sans-serif;
+  font-size: 36px;
+  color: #f9b23d;
+  font-weight: bolder;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+.player {
+  display: flex;
+  flex-direction: column;
+  margin-left: -5%;
+}
+
+.player p {
+  font-family: openSans, sans-serif;
+  font-size: 36px;
+  font-weight: bolder;
+  margin-bottom: 40%;
+  margin-top: 0;
+}
+.player img {
+  margin-bottom: 50%;
+}
+
+.versus {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+}
+
+.versus span {
+  font-family: openSans, sans-serif;
+  font-size: 144px;
+  font-weight: bolder;
+  color: #bd0000;
+  display: flex;
+  margin: auto;
+}
+
+.versus .refresh {
+  width: 77px;
+  height: 71px;
+  display: flex;
+  margin-left: 25%;
+  margin-bottom: -40%;
+}
+
+.computer {
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  margin-right: -7%;
+}
+
+.computer p {
+  font-family: openSans, sans-serif;
+  font-size: 36px;
+  font-weight: bolder;
+  margin-bottom: 60%;
+  margin-top: 0;
+  margin-left: 15%;
+}
+
+.computer img {
+  margin-bottom: 50%;
+}
+
+.player img:hover {
+  animation-name: waves;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  cursor: pointer;
+}

@@ -1,0 +1,424 @@
+@font-face {
+  font-family: "openSans";
+  src: url("fonts/OpenSans-Regular-webfont.woff") format("woff");
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* page 1 */
+
+.mainbg {
+  background-image: url(assets/main-bg.jpg);
+  width: 100vw;
+  height: 160vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+}
+
+.main-navbar h3 {
+  font-family: openSans;
+  font-size: 24px;
+  color: white;
+  margin-left: 80px;
+}
+
+.navbar {
+  display: flex;
+  list-style-type: none;
+  margin-right: 300px;
+}
+
+.navbar a {
+  font-family: openSans;
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
+  margin-right: 40px !important;
+}
+
+.auth {
+  display: flex;
+  margin-right: 7%;
+}
+
+.sign-in {
+  margin-right: 30px;
+}
+
+.dropdown button:first-child {
+  color: white;
+  font-family: openSans;
+  font-size: 12px;
+  border: none;
+  background: none;
+}
+
+.main-content {
+  margin: auto;
+  margin-top: 20vh;
+  text-align: center;
+}
+
+.main-content h1 {
+  font-size: 72px;
+  color: white;
+  margin-bottom: -10px;
+}
+
+.main-content h3 {
+  font-size: 24px;
+  font-weight: lighter;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.main-content button {
+  width: 260px;
+  height: 60px;
+  font-size: 16px;
+  padding: 22px;
+  border: none;
+  background: linear-gradient(194.68deg, #ffb548 11.27%, #f3af34 90.4%);
+  border-radius: 4px;
+}
+
+.scroll-down {
+  text-align: center;
+  margin-top: 400px;
+}
+.scroll-down h4 {
+  margin-bottom: -2px;
+  color: white;
+  font-size: 12px;
+}
+/* akhir page 1 */
+
+/* page 2 */
+.bg2 {
+  background-image: url(assets/the-games-bg.jpg);
+  width: 100vw;
+  height: 180vh;
+  background-size: cover;
+  background-position: center center;
+}
+
+.page2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.about {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  margin-top: -600px;
+}
+
+.about h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: lighter;
+}
+
+.about h1 {
+  font-size: 56px;
+  font-weight: lighter;
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+  margin-top: -300px;
+}
+
+.gallery .main-gallery {
+  width: 758px;
+  height: 377px;
+}
+
+.gallery .switch-left {
+  margin-right: 5px;
+}
+
+.gallery .switch-right {
+  margin-left: 5px;
+}
+
+/* akhir page 2 */
+
+/* page 3 */
+.bg3 {
+  background-image: url(assets/features.jpg);
+  width: 100vw;
+  height: 130vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.features3 {
+  margin-top: -400px;
+  margin-left: 400px;
+}
+
+.features3 h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 24px;
+}
+
+.features3 h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 56px;
+  color: white;
+}
+
+.fw-bold {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: #ffb548;
+}
+
+li .text-muted p {
+  font-family: openSans;
+  font-size: 18px;
+  color: white;
+}
+
+.timeline {
+  border-left: 1px solid hsl(0, 0%, 90%);
+  position: relative;
+  list-style: none;
+}
+
+.timeline .timeline-item {
+  position: relative;
+}
+
+.timeline .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline .timeline-item:after {
+  background-color: hsl(0, 0%, 90%);
+  left: -38px;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  content: "";
+}
+
+/* akhir page 3 */
+
+/* page 4 */
+.bg4 {
+  background-image: url(assets/requirements.png);
+  width: 100vw;
+  height: 120vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.page4 h5 {
+  font-family: openSans;
+  font-size: 14px;
+  text-align: center;
+  color: white;
+}
+
+.bg5 {
+  background-image: url(assets/top-score-bg.png);
+  width: 100vw;
+  height: 120vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.row h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 56px;
+  color: white;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.row table {
+  margin-left: 50px;
+}
+
+table .requirements-info {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: #ffb548;
+}
+
+table .requirements-info-content {
+  font-family: openSans;
+  color: white;
+  font-size: 18px;
+}
+/* akhir page 4 */
+
+/* page 5 */
+.bg5 {
+  background-image: url(assets/top-score-bg.png);
+  width: 100vw;
+  height: 150vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+}
+
+.top-score-left button {
+  width: 160px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: linear-gradient(194.68deg, #ffb548 11.27%, #f3af34 90.4%);
+  border-radius: 4px;
+  text-align: center;
+}
+
+.top-score-left h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 56px;
+  color: white;
+}
+
+.top-score-left h5 {
+  font-family: openSans;
+  font-size: 18px;
+  color: white;
+}
+
+.top-score-right {
+  margin-top: 50px;
+  width: 500px;
+  gap: 50px;
+}
+
+.card {
+  background-color: rgb(30, 29, 29) !important;
+}
+
+.twitter-img {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.card h5 {
+  color: #ffb548;
+}
+
+.card p {
+  color: white;
+}
+.card .p2 {
+  font-size: 12px;
+}
+
+.card-head {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* akhir page 5 */
+
+/* page 6 */
+.bg6 {
+  background-image: url(assets/newsletter.png);
+  width: 100vw;
+  height: 130vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.mainnewsletter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.skull img {
+  width: 345px;
+}
+
+.newsletter h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: white;
+}
+
+.newsletter h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 56px;
+  color: white;
+}
+
+.newsletter p {
+  font-family: openSans;
+  font-size: 18px;
+  color: white;
+  width: 644px;
+}
+
+.email input {
+  margin-top: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.footer button {
+  margin-left: -50px;
+  color: white;
+  font-family: openSans;
+  font-size: 12px;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.hr-line hr {
+  width: 80%;
+  color: white;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .right p {
+  font-family: openSans;
+  color: white;
+  font-size: 14px;
+}
+/* akhir page 6 */
